@@ -15,9 +15,11 @@ fn main() {
     elf_totals.sort();
     elf_totals.reverse();
 
+    // Part 1
     let max = elf_totals.get(1).unwrap();
     println!("{}", max);
 
+    // Part 2
     let top_three_sum: usize = elf_totals.get(0..3).unwrap().into_iter().sum();
     println!("{}", top_three_sum);
 }
