@@ -86,7 +86,7 @@ fn main() {
     println!("{}", part_1_score);
 
     // Part 2, Answer = 12683
-    println!("{}", part_2_score)
+    println!("{}", part_2_score);
 }
 
 // Rock     A, X
